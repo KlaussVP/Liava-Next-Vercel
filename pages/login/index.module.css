@@ -1,0 +1,67 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.signContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: #191E25;
+  background: #FFFFFF;
+  margin: 20px 10px;
+  border-radius: 0.2rem;
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 425px;
+  background-color: white;
+  border-radius: 0.3rem;
+  box-shadow: 2px 4px 16px 0 rgb(0 0 0 / 50%);
+  padding: 1.5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginBox h2 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.loginBox p {
+  margin-top: 1rem;
+}
+
+.footer {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #787878;
+  outline: 0;
+  border:0;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .signContainer img {
+    width: 80%;
+  }
+
+  .signContainer h2 {
+    font-size: 1.6rem;
+  }
+
+  .loginBox {
+    width: 90%;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}

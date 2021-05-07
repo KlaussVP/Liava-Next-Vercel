@@ -1,0 +1,81 @@
+.landingPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.mainContent h1 {
+  font-size: 2.5em;
+  letter-spacing: -0.02em;
+  color: #FFF;
+  text-align: center;
+}
+
+.mainContent button {
+  padding: 1.1rem 2.4rem;
+  margin-top: 40px;
+  border-radius: 7px;
+  border: 2px solid #FFF;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #FFF;
+  width: fit-content;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.socialLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialLogos div {
+  color: #6d7581;
+  font-size: 1.6em;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.socialLogos div:hover {
+  color: #1843E3;
+}
+
+.corporate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.corporate p {
+  color: #6d7581;
+  font-size: 1em;
+  margin: 10px;
+}
+
+.corporate a {
+  color: #6d7581;
+  font-size: 1em;
+  margin: 10px;
+}
+
+.corporate a:hover {
+  color: #1843E3;
+  text-decoration: underline;
+}
